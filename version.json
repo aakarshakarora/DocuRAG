@@ -1,0 +1,21 @@
+{
+  "project": {
+    "name": "DocuRAG",
+    "version": "0.0.1",
+    "description": "A Retrieval-Augmented Generation (RAG) assistant for documentation."
+  },
+  "embedding": {
+    "model_name": "all-MiniLM-L6-v2",
+    "model_version": "v2",
+    "description": "SentenceTransformer model used to generate vector embeddings for documents."
+  },
+  "vector_db": {
+    "name": "ChromaDB",
+    "version": "0.4.0",
+    "description": "Vector database storing document embeddings."
+  },
+  "llm": {
+    "model_name": "phi3:mini",
+    "description": "Local Ollama LLM model used for querying the documents."
+  }
+}
