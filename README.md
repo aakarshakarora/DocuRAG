@@ -74,7 +74,7 @@ ollama pull mistral
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/yourusername/DocuRAG.git
+   git clone https://github.com/aakarshakarora/DocuRAG.git
    cd DocuRAG
    ```
 
